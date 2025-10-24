@@ -9,9 +9,7 @@
   ],
   "routes": [
     {
-      "src": "/paste/(.*)",
-      "dest": "/view/$1",
-      "status": 301
+      "handle": "filesystem"
     },
     {
       "src": "/(.*)",
